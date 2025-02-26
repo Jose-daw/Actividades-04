@@ -1,0 +1,65 @@
+:root {
+    --color-fondo: #121212;
+    --color-texto: #e0e0e0;
+    --color-boton: #ff5722;
+    --color-boton-texto: #fff;
+    --color-formulario: #1e1e1e;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    text-align: center;
+}
+
+.login-form {
+    background-color: var(--color-formulario);
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 87, 34, 0.5);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff5722;
+    background-color: #222;
+    color: var(--color-texto);
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--color-boton);
+    color: var(--color-boton-texto);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff5722;
+}
